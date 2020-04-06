@@ -1,0 +1,989 @@
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Dispositivos Desktop */
+
+@media only screen and (max-device-width: 1400px){
+    
+/* Style CSS Global Desktop */
+    
+/* Área do rodapé */    
+
+
+.divBoxFullRodape{
+    width: 100%;
+    height: 70px;
+    background-color: #de8a14;
+    background-image: linear-gradient(#f09c26, #de8a14);
+   
+}
+
+.divBoxRodape{
+    width: 1200px;  
+    height: 70px;
+    background-color: #de8a14;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(#f09c26, #de8a14);
+}
+
+
+.divBoxSistemaInterno{
+    width: 180px;
+    height: 70px;
+    background-color: #de8a14;
+    float: left;
+}	
+
+.botaoSistemaInternoCSS{
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 26px;
+    border-radius: 8px; 
+}
+
+.divBoxEndereco{
+    width: 700px;
+    height: 70px;
+    background-color: #de8a14;
+    float: left;
+    background-image: linear-gradient(#f09c26, #de8a14);
+}
+
+.divBoxDownload{
+    width: 300px;
+    height: 70px;
+    background-color: #de8a14;
+    float: left;
+    background-image: linear-gradient(#f09c26, #de8a14);
+}
+
+.boxIconePlayStore{
+    width: 180px;
+    height: 65px;
+    background-color: #de8a14;
+    padding-top: 5px;
+    float: left;
+    background-image: linear-gradient(#f09c26, #de8a14);
+}
+
+.imgLogoPlaystore{
+    width: 100%;
+    height: 100%;
+}
+
+.divBoxBotaoDowload{
+    width: 120px;
+    height: 65px;
+    background-color: #de8a14;
+    float: left;
+    padding-top: 5px;
+    background-image: linear-gradient(#f09c26, #de8a14);
+}
+
+.botaoDownload{
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.endereco{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+    
+/* Área Div 100% Width */
+    
+.divBoxFullInfo,.divBoxFullCuriosidades,.divBoxFullContatos,.divBoxFullPromocoes,.divBoxFullLojas,.divBoxFullProdutosDoMes{
+    width: 100%;
+    height: 800px;
+    background-image: url(../imagens/backgroundImgPages.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+    
+/* Área Div Center */
+    
+.divBoxInfo,.divBoxContatos,.divBoxPromocoes,.divBoxLojas,.divBoxProdutosDoMes{
+    width: 1300px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.5);   
+}
+               
+/* ------------- Style CSS Página Home ----------------- */
+  
+/* Área do Cabeçalho */
+
+.divCabecalho{
+    width: 100%;
+    height: 70px;
+    background-color: #de8a14;
+}
+
+.divConteudoCabecalho{
+    width: 1300px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #de8a14;
+}
+
+.divLogo{
+    width: 150px;
+    height: 70px;
+    background-color: #ffffff;
+    float: left;
+    border-radius: 20px;
+}
+
+.logoImagem{
+    margin-left: 2px;    
+}
+
+/* Área do Menu */
+
+.divBoxBotoesMenu{
+    width: 48.46%;
+    height: 70px;
+    background-color: #de8a14;
+    float: left;
+}
+        
+.divBotaoMenu{
+    width: 80px;
+    height: 30px;
+    background-color: #F5F6F7;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.pMenuItemCabecalho{
+    font-family: sans-serif;
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Área Login */
+
+.divBoxLogin{
+    width: 40%;
+    height: 70px;
+    background-color: #de8a14;
+    float: left;
+}
+
+.formLoginESenha{
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 9px;
+}
+
+.botaoLogin{
+    margin-left: 9px;
+    border-radius: 8px;
+}
+
+/* Área do menu de exibição */
+
+.divBoxExibicaoFull{
+    width: 100%;
+    height: 450px;
+    background-color: #ffffff;
+    background-image: url(../imagens/backgroundImgPages.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;                 
+}
+
+.divBoxExibicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 450px;
+    background-color: lightgray;
+}
+
+.divBoxAnterior{
+    width: 50px;
+    height: 100%;
+    background-color: #de8a14;
+    float: left;
+    text-align-last: center;    
+}
+
+.divBoxProximo{
+    width: 50px;
+    height: 100%;
+    background-color: #de8a14;
+    float: right;
+    text-align-last: center;
+}
+
+.buttons{
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 190px;
+    font-family: "comic sans ms";
+}
+
+.divBoxImagemSlide{
+    width: 1100px;
+    height: 450px;
+    float: left;
+    overflow: hidden;
+    margin: 0 auto;
+}
+    
+.imagemSlide{
+    width: 1100px;
+    height: 450px;
+}
+
+
+/* Área dos itens */
+
+.divBoxFullItens{
+    width: 100%px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    background-image: url(../imagens/backgroundImgPages.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.divBox1340RedesSociais{
+    width: 1340px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.divBoxAlignCenterItens{
+    width: 1200px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.divBoxMenuItens{
+    width: 180px;
+    height: 800px;
+    background-color: #c97b0e;
+    float: left;
+}
+    
+.divBoxMenuItensLista{
+    width: 170px;
+    height: 75px;
+    background-color: #ffc14f;
+    margin-top: 13px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+    
+.pItemMenuLista{
+    color: #ffffff;
+    text-align-last: center;   
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.divBoxItens{
+    width: 1020px;
+    height: 800px;
+    background-color: #f09c26;
+    float: left;
+}
+
+.divItens{
+    width: 300px;
+    height: 380px;
+    border-radius: 8px;
+    margin-left: 30px;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 18px; 
+}
+
+.divBoxImgItemHome{
+    width: 270px;
+    height: 210px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.imgModeloHome{
+    width: 270px;
+    height: 210px;
+    border-radius: 10px;
+}
+    
+.divBoxNomeDescricaoPreco{
+    width: 270px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #ffd17d;
+    margin-top: 9px; 
+}
+    
+.pNomeDescricaoPreco{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.divBoxFullRedesSocias{
+    width: 50px;
+    height: 155px;
+    float: right;
+    background-color: #f09c26;  
+    margin-top: -790px;
+    margin-right: 20px;
+}
+
+.detalhes{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 225px;
+}
+
+.divBoxRedesSociais{
+    width: 50px;
+    height: 45px;
+    background-color: #f09c26;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagemLogo{
+    width: 45px;
+    height: 45;
+    padding-left: 2px;  
+}
+    
+/* --------------- Style CSS Página Sobre -------------- */    
+.divBoxInfoSobre{
+    width: 360px;
+    height: 380px;
+    margin-left: 55px;
+    margin-top: 13px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    float: left;
+}
+
+.imgBackInfo{
+    width: 320px;
+    height: 369px;
+    margin-left: 6px;
+    margin-top: 10.5px;
+}
+
+.pInfoTextFundacao{
+    color: #000000; 
+    font-size: 30px;
+    font-family: "minion pro";
+    text-align: left;    
+    margin-left: 20px;
+    margin-top: 11px;
+    margin-right: 7px;    
+}
+
+.chefImg{
+    width: 360px;
+    height: 360px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.artesanalImg{
+    width: 360px;
+    height: 380px;
+    border-radius: 10px;
+    padding-left: -3px;
+}
+
+.hamburgueriaModelo{
+    width: 360px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.infoCozinheiro{
+    color: #000000; 
+    font-size: 30px;
+    font-family: "minion pro";
+    text-align: left;    
+    margin-left: 20px;
+    margin-top: 11px;
+    margin-right: 7px;
+}    
+    
+/* --------------- Style CSS Curiosidades --------------- */   
+    
+.divBoxCuriosidadesConteudo{
+    width: 360px;
+    height: 380px;
+    margin-left: 50px;
+    margin-top: 13px;
+    background-color: #ffffff;
+    padding-left: 21px;
+    border-radius: 10px;
+    float: left;
+}
+
+.pInfoCuriosidades{
+    color: #000000; 
+    font-size: 30px;
+    font-family: "minion pro";
+    text-align: left;    
+    margin-left: 20px;
+    margin-top: 11px;
+    margin-right: 7px;
+}    
+
+/* ------------- Style CSS Área dos Contatos ------------ */
+
+.divBoxEntreEmContato{
+    width: 100%;
+    height: 100px;
+}
+
+.pEntreEmContato{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "palatino linotype";
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.divBoxEntreEmContato{
+    width: 100%;
+    height: 100px;
+}
+
+.divBoxTextAreaContatos{
+    width: 1300px;
+    height: 700px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.divBoxPrimeiraLinha{
+    width: 1300px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+}
+
+.divBoxContatoNome{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    float: left 
+}
+
+.itemContatoNome{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.divBoxTextAreaNome{
+    width: 700px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    float: left;
+}
+
+.textAreaNome{
+    width: 700px;
+    height: 40px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.divBoxContatoTelefone{
+    width: 130px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.itemContatoTelefone{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.divBoxTextAreaTelefone{
+    width: 320px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    float: left;
+}
+
+.textAreaTelefone{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.divBoxSegundaLinha{
+    width: 1300px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    margin-top: 30px;
+}
+
+.divBoxContatoCelular{
+    width: 115px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    float: left;
+}
+
+.itemContatoCelular{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.divBoxTextAreaCelular{
+    width: 320px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.textAreaCelular{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.divBoxContatoEmail{
+    width: 110px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.itemContatoEmail{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.divBoxTextAreaEmail{
+    width: 700px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    float: left;
+}
+
+.textAreaEmail{
+    width: 700px;
+    height: 40px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.divBoxTerceiraLinha{
+    width: 1300px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0);   
+}
+
+.divBoxContatoPaginaPessoal{
+    width: 210px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.itemContatoPaginaPessoal{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.divBoxTextAreaPaginaPessoal{
+    width: 470px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.textAreaPaginaPessoal{
+    width: 470px;
+    height: 40px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.divBoxContatoFacebook{
+    width: 150px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.itemContatoFacebook{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.divBoxTextAreaFacebook{
+    width: 460px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.textAreaFacebook{
+    width: 460px;
+    height: 40px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.divBoxQuartaLinha{
+    width: 1300px;
+    height: 300px;
+    background-color: rgba(0,0,0,0);
+    margin-top: 30px;
+}
+
+.divBoxContatoSugestoesOuCriticas{
+    width: 270px;
+    height: 300px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.itemContatoSugestoesOuCriticas{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.divBoxTextAreaSugestoesOuCriticas{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.textAreaSugestoesOuCriticas{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.divBoxContatoMensagem{
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+
+.itemContatoMensagem{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.divBoxTextAreaMensagem{
+    width: 400px;
+    height: 300px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+}
+
+.textAreaMensagem{
+    width: 400px;
+    height: 300px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.divBoxQuintaLinha{
+    width: 1300px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0);
+}
+
+.divBoxContatoSexo{
+    width: 100px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+}
+
+.itemContatoSexo{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.divBoxInputOpcoesSexo{
+    width: 220px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+    margin-left: 20px;
+    margin-top: 14px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.divBoxProfissao{
+    width: 100px;
+    height: 40px;
+    float: left;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+}
+
+.itemContatoProfissao{
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.divBoxTextAreaProfissao{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:  rgba(0,0,0,0);
+    float: left;
+    margin-left: 30px;
+}
+
+.textAreaProfissao{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.divBoxContatoBotaoEnviar{
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgba(0,0,0,0);
+    float: left;
+    margin-left: 110px;
+}
+
+.botaoEnviar{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/* --------------- Style CSS Promoções ------------------ */
+
+.divPromocao{
+     width: 360px;
+    height: 380px;
+    border-radius: 8px;
+    margin-left: 55px;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 18px;    
+}
+
+.divBoxImagemPromocao{
+    width: 340px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.imagemPromocao{
+    width: 340px;
+    height: 220px;
+    border-radius: 10px;
+}   
+    
+/* ----------- Style CSS Área das Lojas ----------------- */
+
+.divBoxNossasLojas{
+    width: 1300px;
+    height: 70px;
+    background-color: rgba(0,0,0,0);
+}
+
+.pNossasLojas{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-family: "palatino linotype";
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.divBoxLojasItem{
+    width: 350px;
+    height: 500px;
+    margin-left: 62px; 
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: white;
+    float: left;
+}
+
+.divBoxLocaLojas{
+    width: 320px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    background-color: lightgray;
+    border-radius: 10px;    
+}
+
+.pTitleLocalLojas{
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 2px;
+}
+
+.divBoxImgLocalHamburgueria{
+    width: 320px;
+    height: 250px;
+    background-color: lightgray;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; 
+}
+
+.imgLocal{
+    width: 320px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.pLojaEndereco{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.pTelefoneLojas{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+ 
+/* ------------- Style CSS Produtos Mês ----------------- */
+
+.divBoxProdutoDoMesTitulo{
+    width: 100%;
+    height: 70px;
+}
+
+.pProdutoDoMesTitulo{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: "palatino linotype";
+    font-weight: bold;
+}
+
+.divBoxProdutoDoMesItem{
+    width: 350px;
+    height: 500px;
+    background-color: #ffffff;
+    margin-left: 62px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 80px;
+}
+
+.divBoxProdutoDoMesImagem{
+    width: 320px;
+    height: 300px;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.imagemDesconto{
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+}  
+    
+    
+}
+
+/*Dispositivos Mobile*/
+
